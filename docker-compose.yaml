@@ -1,0 +1,8 @@
+services:
+  pwn:
+    build: .
+    environment:
+      FLAG: nynuctf{qdn7b0iN-qu1iYdGw-DM4T8fv7}
+    ports:
+    - 10001:9999
+version: 2.24.0
